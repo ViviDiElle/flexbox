@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 19px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100wh;
+
+}
+
+header, footer {
+    height: 10%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+header {
+    background-color: #80cbc4;
+}
+
+footer {
+    background-color: #26a69a;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.navigation {
+    width: 20%;
+    background-color: #ffab00;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+.article {
+    width: 50%;
+    background-color: #ffd54e;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #fff176;
+    padding-left: 15px;
+    padding-top: 15px;
+}
