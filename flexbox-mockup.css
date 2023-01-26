@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 12px
+}
+
+p {
+color: #6e6d7a;
+font-size: 14px;
+}
+
+.related {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.related li {
+    margin-right: 15px;
+    color: #ea4d8a;
+    font-size: 12px;
+}
+
+.related li:first-of-type {
+    color: #6e6d7a;
+    font-weight: bold;
+}
+
+.container {
+    padding: 15px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.filters {
+    justify-content: space-between;
+}
+
+.filters ul, .filters {
+    display: flex;
+    align-items: center;
+}
+
+.filters ul li {
+    list-style: none;
+    padding: 13px;
+}
+
+.filters div {
+    border: 0.2rem solid #feedf3;
+    border-radius: 8px;
+    padding: 9px 15px;
+}
+
+.filters div:last-of-type {
+    border: 0.1rem solid #f2f2f3;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+.filters div:first-of-type { 
+    padding-right: 40px;
+}
+
+.filters ul li:last-of-type {
+    background-color: #f3f3f4;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-info div {
+    padding-top: 2px;
+}
+
+
+.card-info div:first-of-type i {
+    color: #6e6d7a;
+    font-size: 20px;
+}
+
+.card-info div:nth-child(2) i {
+    color: gray;
+    font-size: 14px;
+}
+
+.card-info div:nth-child(2) i:last-of-type {
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.card-info span:first-of-type {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.card-info div:first-of-type span:last-child {
+    background-color: #cccccc;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.card-info div:nth-child(2) span {
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+
+
